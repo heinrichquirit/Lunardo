@@ -1,13 +1,55 @@
-section {
-    height: 100%;
+/* Parallax Start */
+.parallax { 
+    /* The image used */
+    background-image: url('../media/parallax.jpg');
+  
+    /* Set a specific height */
+    height: 2500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#section-one {
-    background-color: red;
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
 }
 
-ul {
+/* Parallax End */
+
+ul, li {
+    display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+/* Section style start */
+section {
+    height: 500px;
+}
+
+#section-one {
+    background-image: url('../media/section-one.png');
+}
+
+#section-two {
+    background-image: url('../media/section-two.png');
+}
+
+#section-three {
+    background-image: url('../media/section-three.png');
+}
+
+.section-seperator {
+    height: 300px;
+}
+
+/* Section style end */
+
+

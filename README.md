@@ -9,3 +9,7 @@ The Lunardo Cinema knows that cannot compete with the major chains (Village, Hoy
 http://www.dolby.com/us/en/platforms/dolby-cinema.html
 
 The client expects to have a grand reopening in a few months’ time (ie around week 12) and would like a new website ready to launch the new cinema. Before the client decides to engage you to develop their entire website (ie assignments 3 & 4), they would like to see what you can do with the front end and design of their website: generating ideas, writing content, developing HTML forms.
+
+# Color Scheme
+White and Orange
+Orange: e88b00

@@ -4,7 +4,10 @@
 ?>
     <body>
         <header>
-            <!-- Insert logo here -->
+            <div>
+                <img src='media/lunar.png' alt='Lunardo logo' height=120/>
+                <h1>Lunardo</h1>
+            </div>
         </header>
         <nav>
             <ul>
@@ -13,10 +16,23 @@
                 <li><a>Now Showing</a></li>
             </ul>
         </nav>
-        <main>
-            <section id="section-one"></section>
-            <section id="section-two"></section>
-            <section id="section-two"></section>
-        </main>
+        <div class="parallax">
+            <main>
+                <section id="section-one">
+                    <h2>Section 1</h2>
+                    <p>This is section one</p>
+                </section>
+                <div class="section-seperator"></div>
+                <section id="section-two">
+                    <h2>Section 2</h2>
+                    <p>This is section two</p>
+                </section>
+                <div class="section-seperator"></div>
+                <section id="section-three">
+                    <h2>Section 3</h2>
+                    <p>This is section three</p>
+                </section>
+            </main>
+        </div>
     </body>
 <?php include_once('includes/footer.php'); ?>
