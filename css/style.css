@@ -1,26 +1,67 @@
+html, body {
+    height: 100%;
+}
+
 /* Parallax Start */
-.parallax { 
+/*.parallax { 
     /* The image used */
-    background-image: url('../media/parallax.jpg');
+    /* background-image: url('../media/parallax.jpg'); */
   
     /* Set a specific height */
-    height: 2500px; 
+    /*height: 2500px; 
   
     /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+  
+.bgimg-1 {
+    background-image: url('../media/sectionone-parallax.jpg');
+    height: 400px;
+}
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
+.bgimg-2 {
+    background-image: url('../media/sectiontwo-parallax.jpg');
+    height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url('../media/sectionthree-parallax.jpg');
+    height: 400px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }
 }
 
 /* Parallax End */
+
+#header-logo {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-seperator {
+    height: 50px;
+}
 
 ul, li {
     display: inline;
@@ -31,19 +72,9 @@ ul, li {
 
 /* Section style start */
 section {
-    height: 500px;
-}
-
-#section-one {
-    background-image: url('../media/section-one.png');
-}
-
-#section-two {
-    background-image: url('../media/section-two.png');
-}
-
-#section-three {
-    background-image: url('../media/section-three.png');
+    text-align: center;
+    /* height: 500px;
+    border-radius: 99%; */
 }
 
 .section-seperator {
@@ -52,4 +83,11 @@ section {
 
 /* Section style end */
 
+/* Footer start */
+
+footer {
+    text-align: center;
+}
+
+/* Footer end */
 
