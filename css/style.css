@@ -3,33 +3,26 @@ html, body {
 }
 
 /* Parallax Start */
-/*.parallax { 
-    /* The image used */
-    /* background-image: url('../media/parallax.jpg'); */
-  
-    /* Set a specific height */
-    /*height: 2500px; 
-  
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    border-radius: 100px;
+    min-height: 100%;
+} 
   
 .bgimg-1 {
-    background-image: url('../media/sectionone-parallax.jpg');
+    /* background-image: url('../media/sectionone-parallax.jpg'); */
+    background-color: #353A3E;
+    color: #FFFFFF;
     height: 400px;
+}
+
+.container {
+    max-height: 100%;
 }
 
 .bgimg-2 {
@@ -38,8 +31,11 @@ html, body {
 }
 
 .bgimg-3 {
-    background-image: url('../media/sectionthree-parallax.jpg');
-    height: 400px;
+    /* background-image: url('../media/sectionthree-parallax.jpg'); */
+    opacity: unset;
+    background-color: #353A3E;
+    color: #FFFFFF;
+    height: 600px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -57,6 +53,10 @@ html, body {
 
 nav {
     text-align: center;
+}
+
+#nav-text {
+    color: #FFF7E0;
 }
 
 .nav-seperator {
@@ -83,10 +83,19 @@ section {
 
 /* Section style end */
 
+/* Miscel start */
+
+
+/* Miscel end */
+
 /* Footer start */
 
 footer {
-    text-align: center;
+    border-radius: 100px;
+}
+
+.footer-seperator {
+    height: 50px;
 }
 
 /* Footer end */
