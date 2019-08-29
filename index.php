@@ -118,7 +118,54 @@
                 </div>
                 <section class="bgimg-2">
                     <h1 style="color: #51585E;">Seats Pricing</h1>
-                    <p>This is section two</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Seat Type</th>
+                                <th scope="col">Seat Code</th>
+                                <th scope="col">All Day (Mon-Wed), 12PM Weekdays</th>
+                                <th scope="col">All other times</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Standard Adult</th>
+                                <td>STA</td>
+                                <td>$14.00</td>
+                                <td>$19.80</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Standard Concession</th>
+                                <td>STP</td>
+                                <td>$12.50</td>
+                                <td>$17.50</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Standard Child</th>
+                                <td>STC</td>
+                                <td>$11.00</td>
+                                <td>$15.30</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">First Class Adult</th>
+                                <td>FCA</td>
+                                <td>$24.00</td>
+                                <td>$30.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">First Class Concession</th>
+                                <td>FCP</td>
+                                <td>$22.50</td>
+                                <td>$27.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">First Class Child</th>
+                                <td>FCC</td>
+                                <td>$21.00</td>
+                                <td>$24.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </section>
                 <div style="position:relative;">
                     <!-- <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"> -->
