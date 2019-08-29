@@ -17,8 +17,8 @@ html, body {
 .bgimg-1 {
     /* background-image: url('../media/sectionone-parallax.jpg'); */
     background-color: #353A3E;
-    color: #FFFFFF;
-    height: 400px;
+    color: #51585E;
+    height: 600px;
 }
 
 .container {
@@ -85,6 +85,37 @@ section {
 
 /* Miscel start */
 
+.container-fluid {
+   margin: 0px auto;
+}
+
+/* Add position relative to the parent container */
+.movie-panel {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 250px;
+}
+
+.movie-poster {
+    position: absolute;
+    background-color: grey;
+    margin: 25px;
+    width: 110px;
+    height: 200px;
+}
+
+.movie-title {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.movie-times {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}
 
 /* Miscel end */
 

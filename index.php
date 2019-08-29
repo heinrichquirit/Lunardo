@@ -25,67 +25,99 @@
             <main>
                 <div class="nav-seperator"></div>
                 <section class="bgimg-1">
-                    <h1>Now Showing</h1>
-                    <!-- <div class="container">
+                    <h1 style="color: #FFFFFF;">Now Showing</h1>
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm">
-                                <div class="card">
-                                    <div class="card-header">
-                                        Avengers: Endgame
+                            <div class="col-sm-6">
+                                <div class="movie-panel">
+                                    <div class="movie-poster">
+                                        <img src="media/movie-poster1.jpg"></img>
+                                    </div>
+                                    <div class="movie-title">
+                                        Avengers: Endgame (M)
+                                        <br/><br/>
+                                    </div>
+                                    <div class="movie-times">
+                                        Mon: --:--<br/>
+                                        Tue: --:--<br/>
+                                        Wed: 9:00pm - 12:30am<br/>
+                                        Thu: 9:00pm - 12:30am<br/>
+                                        Fri: 9:00pm - 12:30am<br/>
+                                        Sat: 6:00pm - 9:30pm<br/>
+                                        Sun: 6:00pm - 9:30pm<br/>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
-                            2
+                            <div class="col-sm-6">
+                                <div class="movie-panel">
+                                    <div class="movie-poster">
+                                        <img src="media/movie-poster2.jpg"></img>
+                                    </div>
+                                    <div class="movie-title">
+                                        Top Ending Wedding (MA)
+                                        <br/><br/>
+                                    </div>
+                                    <div class="movie-times">
+                                        Mon: 6:00pm - 8:15pm<br/>
+                                        Tue: 6:00pm - 8:15pm<br/>
+                                        Wed: --:--<br/>
+                                        Thu: --:--<br/>
+                                        Fri: --:--<br/>
+                                        Sat: 3:00pm - 5:15pm<br/>
+                                        Sun: 3:00pm - 5:15pm<br/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm">
-                            3
+                        <div class="col-sm-6">
+                                <div class="movie-panel">
+                                    <div class="movie-poster">
+                                        <img src="media/movie-poster3.jpg"></img>
+                                    </div>
+                                    <div class="movie-title">
+                                        Dumbo The Elephant (G)
+                                        <br/><br/>
+                                    </div>
+                                    <div class="movie-times">
+                                        Mon: 12:00pm - 1:45pm<br/>
+                                        Tue: 12:00pm - 1:45pm<br/>
+                                        Wed: 6:00pm - 7:45pm<br/>
+                                        Thu: 6:00pm - 7:45pm<br/>
+                                        Fri: 6:00pm - 7:45pm<br/>
+                                        Sat: 12:00pm - 1:45pm<br/>
+                                        Sun: 12:00pm - 1:45pm<br/>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm">
-                            4
+                            <div class="col-sm-6">
+                                <div class="movie-panel">
+                                    <div class="movie-poster">
+                                        <img src="media/movie-poster4.jpg"></img>
+                                    </div>
+                                    <div class="movie-title">
+                                        The Happy Prince (R)
+                                        <br/><br/>
+                                    </div>
+                                    <div class="movie-times">
+                                        Mon: --:--<br/>
+                                        Tue: --:--<br/>
+                                        Wed: 12:00pm - 2:30am<br/>
+                                        Thu: 12:00pm - 2:30am<br/>
+                                        Fri: 12:00pm - 2:30am<br/>
+                                        Sat: 9:00pm - 11:30pm<br/>
+                                        Sun: 9:00pm - 11:30pm<br/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div> -->
-                    <div class="card-group">
-                        <div class="card">
-                            <div class="card-body">
-                            <h5 class="card-title">Panel title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 5 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                            <h5 class="card-title">Panel title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                            <h5 class="card-title">Panel title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 1 min ago</small>
-                            </div>
-                        </div>
-                        </div>
-                </section>
-                <div style="position:relative;">
-                    <!-- <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"> -->
-                    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
                     </div>
+                </section>
+                <div class="section-seperator" style="text-align: center;">
+                    <p>Seperator 1</p>
                 </div>
-                <div class="section-seperator"></div>
                 <section class="bgimg-2">
-                    <h2>Seats Pricing</h2>
+                    <h1 style="color: #51585E;">Seats Pricing</h1>
                     <p>This is section two</p>
                 </section>
                 <div style="position:relative;">
