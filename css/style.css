@@ -1,6 +1,10 @@
-html {
+html, body {
     scroll-behavior: smooth;
     height: 100%;
+}
+
+html, head, header, nav, body, .nav-seperator {
+    background-color: #C0C0C0;
 }
 
 /* Parallax Start */
@@ -16,10 +20,9 @@ html {
 } 
   
 .parallax #about-us {
-    /* background-image: url('../media/sectionone-parallax.jpg'); */
     background-color: #51585E;
     color: #FFFFFF;
-    height: 600px;
+    min-height: 100vh;
 }
 
 .container {
@@ -27,16 +30,15 @@ html {
 }
 
 .parallax #pricing {
+    position: relative;
     background-image: url('../media/sectiontwo-parallax.jpg');
-    height: 400px;
+    min-height: 100vh;
 }
 
 .now-showing {
-    /* background-image: url('../media/sectionthree-parallax.jpg'); */
-    /* opacity: unset; */
     background-color: #51585E;
     color: #51585E;
-    height: 600px; 
+    min-height: 100vh;
 } 
 
 /* Parallax End */
@@ -74,6 +76,7 @@ section {
 }
 
 .section-seperator {
+    opacity: 0.1;
     height: 300px;
 }
 
@@ -120,14 +123,14 @@ section {
     position: relative;
     background-color: #51585E;
     width: 100%;
-    height: 400px;
+    min-height: 100vh;
     border-style: solid;
 }
 
 .synopsis-title {
     position: absolute;
     color: #FFFFFF;
-    top: 50px;
+    top: 100px;
     left: 30px;
 }
 
@@ -135,30 +138,40 @@ section {
     position: absolute;
     color: #FFFFFF;
     text-align: left;
-    top: 100px;
+    top: 150px;
     left: 30px;
 }
 
 .synopsis-trailer {
     position: absolute;
-    top: 50px;
+    top: 100px;
     right: 30px;
 }
 
 .synopsis-booking {
     position: absolute;
     color: #FFFFFF;
-    bottom: 70px;
+    bottom: 150px;
     left: 30px;
 }
 
 .synopsis-booking-buttons {
     position: absolute;
     border-style: solid;
-    bottom: 0px;
+    bottom: 75px;
 }
 
 /* Synopsis end */
+
+/* Bookings start */
+
+.bookings-panel {
+    border-style: dotted;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Bookings end */
 
 /* Footer start */
 
