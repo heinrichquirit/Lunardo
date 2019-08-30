@@ -18,7 +18,7 @@ html {
 .parallax #about-us {
     /* background-image: url('../media/sectionone-parallax.jpg'); */
     background-color: #353A3E;
-    color: #51585E;
+    color: #FFFFFF;
     height: 600px;
 }
 
@@ -35,7 +35,7 @@ html {
     /* background-image: url('../media/sectionthree-parallax.jpg'); */
     opacity: unset;
     background-color: #353A3E;
-    color: #FFFFFF;
+    color: #51585E;
     height: 600px;
 }
 
