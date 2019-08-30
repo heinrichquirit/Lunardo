@@ -15,14 +15,14 @@
                     <a name="about"><h1 color="#FFFFFF">About Us</h1></a>
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm">
+                            <div class="col-lg-6">
                             <p>The Lunardo Cinema has a just made a 
                                 grand come back for its re-opening! After
                                 long and hardworking hours for months on end, we have
                                 extensively improved and renovated almost every
                                 feature that we offer!</p>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-lg-6">
                                 <img src="media/about-us-room.jpg" class="img-thumbnail" alt="New Cinema" width=500px height=343px/>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="section-seperator"></div>
-                <section id="now-showing">
+                <section class="now-showing">
                     <a name="now-showing"><h1 style="color: #FFFFFF;">Now Showing</h1></a>
                     <div class="container-fluid">
                         <div class="row">
@@ -172,6 +172,43 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="section-seperator"></div>
+                <section id="synopsis">
+                    <div class="synopsis-panel">
+                        <div class="synopsis-title">
+                            <h2>Avengers: Endgame (M)</h2>
+                        </div>
+                        <div class="synopsis-description">
+                            Twenty-three days after Thanos used the<br/>
+                            Infinity Gauntlet to disintegrate half of all<br/>
+                            life in the universe, Carol Danvers rescues Tony<br/>
+                            Strak and Nebula from deep space and returns them<br/>
+                            to Earth, where they reunite with the remaining<br/>
+                            avengers.<br/>
+                        </div>
+                        <div class="synopsis-trailer">
+                            <video width="400" controls>
+                                <source src="media/avengers-trailer.mp4">
+                            </video>
+                        </div>
+                        <div class="synopsis-booking">
+                            <h2>Make a booking</h2>
+                        </div>
+                        <div class="synopsis-booking-buttons">
+                            <table>
+                                <tr>
+                                    <td><button type="button" class="btn-xs btn-dark">Mon: --:--</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Tue: --:--</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Wed: 9:00pm - 12:30am</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Thu: 9:00pm - 12:30am</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Fri: 9:00pm - 12:30am</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Sat: 6:00pm - 9:30pm</button></td>
+                                    <td><button type="button" class="btn-xs btn-dark">Sun: 6:00pm - 9:30pm</button></td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </section>
