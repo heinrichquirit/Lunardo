@@ -1,10 +1,11 @@
-html, body {
+html {
+    scroll-behavior: smooth;
     height: 100%;
 }
 
 /* Parallax Start */
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.parallax #about-us, .parallax #pricing, .parallax #now-showing {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -14,7 +15,7 @@ html, body {
     min-height: 100%;
 } 
   
-.bgimg-1 {
+.parallax #about-us {
     /* background-image: url('../media/sectionone-parallax.jpg'); */
     background-color: #353A3E;
     color: #51585E;
@@ -25,12 +26,12 @@ html, body {
     max-height: 100%;
 }
 
-.bgimg-2 {
+#pricing {
     background-image: url('../media/sectiontwo-parallax.jpg');
     height: 400px;
 }
 
-.bgimg-3 {
+#now-showing {
     /* background-image: url('../media/sectionthree-parallax.jpg'); */
     opacity: unset;
     background-color: #353A3E;
@@ -53,6 +54,10 @@ html, body {
 
 nav {
     text-align: center;
+}
+
+.nav-links {
+    position: sticky;
 }
 
 #nav-text {

@@ -1,16 +1,10 @@
 <nav>
     <ul>
-        <button type="button" class="btn btn-dark" onclick="window.location.href = '#about';">
-            <i class="fas fa-info" style="color:#FFFFFF;"></i>
-            <p style="color:#FFFFFF;">About Us</p>
-        </button>
-        <button type="button" class="btn btn-dark">
-            <i class="fas fa-dollar-sign" style="color:#FFFFFF;"></i>
-            <p style="color:#FFFFFF;">Prices</p>
-        </button>
-        <button type="button" class="btn btn-dark">
-            <i class="fas fa-tv" style="color:#FFFFFF;"></i>
-            <p style="color:#FFFFFF;">Now Showing</p>
-        </button>
+        <i class="fas fa-info" style="color:#24282A;"></i>
+        <a class="nav-links" href="#about" style="color:#24282A;">About Us</a>
+        <i class="fas fa-dollar-sign" style="color:#24282A;"></i>
+        <a class="nav-links" href="#pricing" style="color:#24282A;">Prices</a>
+        <i class="fas fa-tv" style="color:#24282A;"></i>
+        <a class="nav-links" href="#now-showing" style="color:#24282A;">Now Showing</a>
     </ul>
 </nav>
