@@ -1,10 +1,16 @@
 html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
     height: 100%;
 }
 
 html, head, header, nav, body, .nav-seperator {
-    background-color: #C0C0C0;
+    /* background-color: #C0C0C0; */
+    background: url("../media/background-space.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* Parallax Start */
@@ -41,6 +47,10 @@ html, head, header, nav, body, .nav-seperator {
     min-height: 100vh;
 } 
 
+a {
+    color: white;
+}
+
 /* Parallax End */
 
 #header-logo {
@@ -50,7 +60,42 @@ html, head, header, nav, body, .nav-seperator {
 nav {
     text-align: center;
 }
+/* ss */
 
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* ss */
 .nav-links {
     position: sticky;
 }
@@ -82,6 +127,67 @@ section {
 
 /* Section style end */
 
+/* Form panel start */
+
+.form-movie-panel {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 750px;
+    height: 700px;
+}
+
+.form-movie-title {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    top: 15px;
+    left: 20px;
+}
+
+.form-standard-box {
+    position: absolute;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    top: 100px;
+    left: 20px;
+}
+
+.form-firstclass-box {
+    position: absolute;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    top: 350px;
+    left: 20px;
+}
+
+.form-customer-box {
+    position: absolute;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    top: 150px;
+    right: 20px;
+}
+
+.form-order-total {
+    position: absolute;
+    border-style: dotted;
+    width: 150px;
+    height: 20px;
+    bottom: 50px;
+    left: 30px;
+}
+
+.form-order-button {
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+
+/* Form panel end */
+
 /* Movie panel start */
 
 .container-fluid {
@@ -92,7 +198,7 @@ section {
 .movie-panel {
     position: relative;
     background-color: #FFFFFF;
-    width: 350px;
+    width: 400px;
     height: 250px;
 }
 
@@ -112,7 +218,31 @@ section {
 .movie-times {
     position: absolute;
     top: 50px;
-    right: 35px;
+    right: 10px;
+}
+
+.col-1 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.col-2 {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+
+.col-3 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+
+.col-4 {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
 }
 
 /* Movie panel end */

@@ -6,8 +6,9 @@
     <body>
         <?php
             include_once('includes/logo.php');
-            include_once('includes/nav.php');
+            include_once('includes/nav.html');
         ?>
+        <script src="script.js"></script>
         <div class="parallax">
             <main>
                 <div class="nav-seperator"></div>
@@ -51,48 +52,48 @@
                 <section id="pricing">
                     <a name="pricing"><h1 style="color: #51585E;">Seats Pricing</h1></a>
                     <br/><br/><br/><br/>
-                    <table class="table">
+                    <table class="table" align="center">
                         <thead>
                             <tr>
                                 <th>Seat Type</th>
                                 <th>Seat Code</th>
-                                <th>All Day (Mon-Wed), 12PM Weekdays</th>
+                                <th>Discount Times</th>
                                 <th>All other times</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th>Standard Adult</th>
+                                <td>Standard Adult</td>
                                 <td>STA</td>
                                 <td>$14.00</td>
                                 <td>$19.80</td>
                             </tr>
                             <tr>
-                                <th>Standard Concession</th>
+                                <td>Standard Concession</td>
                                 <td>STP</td>
                                 <td>$12.50</td>
                                 <td>$17.50</td>
                             </tr>
                             <tr>
-                                <th>Standard Child</th>
+                                <td>Standard Child</td>
                                 <td>STC</td>
                                 <td>$11.00</td>
                                 <td>$15.30</td>
                             </tr>
                             <tr>
-                                <th>First Class Adult</th>
+                                <td>First Class Adult</td>
                                 <td>FCA</td>
                                 <td>$24.00</td>
                                 <td>$30.00</td>
                             </tr>
                             <tr>
-                                <th>First Class Concession</th>
+                                <td>First Class Concession</td>
                                 <td>FCP</td>
                                 <td>$22.50</td>
                                 <td>$27.00</td>
                             </tr>
                             <tr>
-                                <th>First Class Child</th>
+                                <td>First Class Child</td>
                                 <td>FCC</td>
                                 <td>$21.00</td>
                                 <td>$24.00</td>
@@ -103,88 +104,90 @@
                 <div class="section-seperator"></div>
                 <section class="now-showing">
                     <a name="now-showing"><h1 style="color: #FFFFFF;">Now Showing</h1></a>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="movie-panel">
-                                    <div class="movie-poster">
-                                        <img src="media/movie-poster-avengers.jpg"/>
-                                    </div>
-                                    <div class="movie-title">
-                                        Avengers: Endgame (M)
-                                        <br/><br/>
-                                    </div>
-                                    <div class="movie-times">
-                                        Mon: --:--<br/>
-                                        Tue: --:--<br/>
-                                        Wed: 9:00pm - 12:30am<br/>
-                                        Thu: 9:00pm - 12:30am<br/>
-                                        Fri: 9:00pm - 12:30am<br/>
-                                        Sat: 6:00pm - 9:30pm<br/>
-                                        Sun: 6:00pm - 9:30pm<br/>
-                                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <button onclick="alert('Updated Synopsis');updateEndgame();" href="#synopsis">Endgame</button>
+                            <div class="movie-panel">
+                                <div class="movie-poster">
+                                    <img src="media/movie-poster-avengers.jpg"/>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="movie-panel">
-                                    <div class="movie-poster">
-                                        <img src="media/movie-poster-wedding.jpg"/>
-                                    </div>
-                                    <div class="movie-title">
-                                        Top Ending Wedding (MA)
-                                        <br/><br/>
-                                    </div>
-                                    <div class="movie-times">
-                                        Mon: 6:00pm - 8:15pm<br/>
-                                        Tue: 6:00pm - 8:15pm<br/>
-                                        Wed: --:--<br/>
-                                        Thu: --:--<br/>
-                                        Fri: --:--<br/>
-                                        Sat: 3:00pm - 5:15pm<br/>
-                                        Sun: 3:00pm - 5:15pm<br/>
-                                    </div>
+                                <div class="movie-title">
+                                    Avengers: Endgame (M)
+                                    <br/><br/>
+                                </div>
+                                <div class="movie-times">
+                                    Mon: --:--<br/>
+                                    Tue: --:--<br/>
+                                    Wed: 9:00pm - 12:30am<br/>
+                                    Thu: 9:00pm - 12:30am<br/>
+                                    Fri: 9:00pm - 12:30am<br/>
+                                    Sat: 6:00pm - 9:30pm<br/>
+                                    Sun: 6:00pm - 9:30pm<br/>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                        <div class="col-sm-6">
-                                <div class="movie-panel">
-                                    <div class="movie-poster">
-                                        <img src="media/movie-poster-dumbo.jpg"/>
-                                    </div>
-                                    <div class="movie-title">
-                                        Dumbo The Elephant (G)
-                                        <br/><br/>
-                                    </div>
-                                    <div class="movie-times">
-                                        Mon: 12:00pm - 1:45pm<br/>
-                                        Tue: 12:00pm - 1:45pm<br/>
-                                        Wed: 6:00pm - 7:45pm<br/>
-                                        Thu: 6:00pm - 7:45pm<br/>
-                                        Fri: 6:00pm - 7:45pm<br/>
-                                        Sat: 12:00pm - 1:45pm<br/>
-                                        Sun: 12:00pm - 1:45pm<br/>
-                                    </div>
+                        <div class="col-2">
+                            <button onclick="alert('Updated Synopsis');updateWedding();" href="#synopsis">Wedding</button>
+                            <div class="movie-panel">
+                                <div class="movie-poster">
+                                    <img src="media/movie-poster-wedding.jpg"/>
+                                </div>
+                                <div class="movie-title">
+                                    Top Ending Wedding (MA)
+                                    <br/><br/>
+                                </div>
+                                <div class="movie-times">
+                                    Mon: 6:00pm - 8:15pm<br/>
+                                    Tue: 6:00pm - 8:15pm<br/>
+                                    Wed: --:--<br/>
+                                    Thu: --:--<br/>
+                                    Fri: --:--<br/>
+                                    Sat: 3:00pm - 5:15pm<br/>
+                                    Sun: 3:00pm - 5:15pm<br/>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="movie-panel">
-                                    <div class="movie-poster">
-                                        <img src="media/movie-poster-prince.jpg"/>
-                                    </div>
-                                    <div class="movie-title">
-                                        The Happy Prince (R)
-                                        <br/><br/>
-                                    </div>
-                                    <div class="movie-times">
-                                        Mon: --:--<br/>
-                                        Tue: --:--<br/>
-                                        Wed: 12:00pm - 2:30am<br/>
-                                        Thu: 12:00pm - 2:30am<br/>
-                                        Fri: 12:00pm - 2:30am<br/>
-                                        Sat: 9:00pm - 11:30pm<br/>
-                                        Sun: 9:00pm - 11:30pm<br/>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <button onclick="alert('Updated Synopsis');updateDumbo();" href="#synopsis">Dumbo</button>
+                            <div class="movie-panel">
+                                <div class="movie-poster">
+                                    <img src="media/movie-poster-dumbo.jpg"/>
+                                </div>
+                                <div class="movie-title">
+                                    Dumbo The Elephant (G)
+                                    <br/><br/>
+                                </div>
+                                <div class="movie-times">
+                                    Mon: 12:00pm - 1:45pm<br/>
+                                    Tue: 12:00pm - 1:45pm<br/>
+                                    Wed: 6:00pm - 7:45pm<br/>
+                                    Thu: 6:00pm - 7:45pm<br/>
+                                    Fri: 6:00pm - 7:45pm<br/>
+                                    Sat: 12:00pm - 1:45pm<br/>
+                                    Sun: 12:00pm - 1:45pm<br/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button onclick="alert('Updated Synopsis');updatePrince();" href="#synopsis">Prince</button>
+                            <div class="movie-panel">
+                                <div class="movie-poster">
+                                    <img src="media/movie-poster-prince.jpg"/>
+                                </div>
+                                <div class="movie-title">
+                                    The Happy Prince (R)
+                                    <br/><br/>
+                                </div>
+                                <div class="movie-times">
+                                    Mon: --:--<br/>
+                                    Tue: --:--<br/>
+                                    Wed: 12:00pm - 2:30am<br/>
+                                    Thu: 12:00pm - 2:30am<br/>
+                                    Fri: 12:00pm - 2:30am<br/>
+                                    Sat: 9:00pm - 11:30pm<br/>
+                                    Sun: 9:00pm - 11:30pm<br/>
                                 </div>
                             </div>
                         </div>
@@ -217,11 +220,11 @@
                                 <tr>
                                     <td><button type="button" class="btn-xs btn-dark">Mon: --:--</button></td>
                                     <td><button type="button" class="btn-xs btn-dark">Tue: --:--</button></td>
-                                    <td><button type="button" class="btn-xs btn-dark">Wed: 9:00pm - 12:30am</button></td>
-                                    <td><button type="button" class="btn-xs btn-dark">Thu: 9:00pm - 12:30am</button></td>
-                                    <td><button type="button" class="btn-xs btn-dark">Fri: 9:00pm - 12:30am</button></td>
-                                    <td><button type="button" class="btn-xs btn-dark">Sat: 6:00pm - 9:30pm</button></td>
-                                    <td><button type="button" class="btn-xs btn-dark">Sun: 6:00pm - 9:30pm</button></td>
+                                    <td><button onclick="updateBooking('Avengers: Endgame', 'WED', '9:00pm - 12:30am');" type="button" class="btn-xs btn-dark">Wed: 9:00pm - 12:30am</button></td>
+                                    <td><button onclick="updateBooking('Avengers: Endgame', 'THU', '9:00pm - 12:30am');" type="button" class="btn-xs btn-dark">Thu: 9:00pm - 12:30am</button></td>
+                                    <td><button onclick="updateBooking('Avengers: Endgame', 'FRI', '9:00pm - 12:30am');" type="button" class="btn-xs btn-dark">Fri: 9:00pm - 12:30am</button></td>
+                                    <td><button onclick="updateBooking('Avengers: Endgame', 'SAT', '6:00pm - 9:30pm');" type="button" class="btn-xs btn-dark">Sat: 6:00pm - 9:30pm</button></td>
+                                    <td><button onclick="updateBooking('Avengers: Endgame', 'SUN', '6:00pm - 9:30pm');" type="button" class="btn-xs btn-dark">Sun: 6:00pm - 9:30pm</button></td>
                                 </tr>
                             </table>
                         </div>
@@ -229,10 +232,88 @@
                 </section>
                 <div class="section-seperator"></div>
                 <section id="bookings">
-                    <div class="bookings-panel">
+                    <div align="center" class="bookings-panel">
                         <a name="bookings"><h1>Bookings</h1></a>
-                        <br/><br/>
-                        <h2>Under construction</h2>
+                        <form name="form-movie" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" onsubmit="return validateForm()" method="POST">
+                            <div class="form-movie-panel">
+                                <div class="form-movie-title">
+                                    <input name="movie[id]" id="movie-id" type="hidden">Avengers: Endgame</input><br/>
+                                    <input name="movie[day]" id="movie-day" type="hidden">WED</input><br/>
+                                    <input name="movie[hour]" id="movie-hour" type="hidden">9:00pm - 12:30am</input><br/>
+                                </div>
+                                <div class="form-standard-box">
+                                    <h3>Standard</h3>
+                                    <label for="seats-STA">Adults</label>
+                                    <select name="seats[STA]" id="seats-STA" onchange="updatePrice();">
+                                        <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                    </br>
+                                    <label for="seats-STP">Concession</label>
+                                    <select name="seats[STP]" id="seats-STP" onchange="updatePrice();">
+                                        <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                    </br>
+                                    <label for="seats-STC">Children</label>
+                                    <select name="seats[STC]" id="seats-STC" onchange="updatePrice();">
+                                        <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                </div>
+                                <div class="form-firstclass-box">
+                                    <h3>First Class</h3>
+                                    <label for="seats-FCA">Adults</label>
+                                    <select name="seats[FCA]" id="seats-FCA" onchange="updatePrice();">
+                                        <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                    </br>
+                                    <label for="seats-FCP">Concession</label>
+                                    <select name="seats[FCP]" id="seats-FCP" onchange="updatePrice();">
+                                        <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                    </br>
+                                    <label for="seats-FCC">Children</label>
+                                    <select name="seats[FCC]" id="seats-FCC" onchange="updatePrice();">
+                                    <option value="">Please Select</option>
+                                        <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                        <?php endfor; ?>
+                                    </select>
+                                </div>
+                                <div class="form-customer-box">
+                                    <h3>Customer Details</h3>
+                                    <label for="cust-name">Name</label>
+                                    <input name="cust[name]" id="cust-name" type="text"><br/>
+                                    <label for="cust-email">Email</label>
+                                    <input name="cust[email]" id="cust-email" type="email"><br/>
+                                    <label for="cust-mobile">Mobile</label>
+                                    <input name="cust[mobile]" id="cust-mobile" type="tel"><br/>
+                                    <label for="cust-card">Credit Card</label>
+                                    <input minlength="14" maxlength="19"name="cust[card]" id="cust-card" type="text"><br/>
+                                    <label for="cust-expiry">Expiry</label>
+                                    <input name="cust[expiry]" id="cust-expiry" type="month"><br/>
+                                </div>
+                                <div class="form-order-total">
+                                    <input name="order[total]" id="order-total" readonly>
+                                </div>
+                                <div class="form-order-button">
+                                    <input type="submit" value="Order">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </main>
